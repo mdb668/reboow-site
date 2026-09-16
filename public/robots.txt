@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /bedankt
+
+Sitemap: https://www.reboow.nl/sitemap-index.xml

@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "title": "Reboow Machinebouw",
+    "subtitle": "Meesters in retrofit, experts in nieuwbouw.",
+    "video": "/video/hero.mp4",
+    "poster": "/images/fotos/hero-poster.jpg",
+    "videoMobile": "/video/hero-mobiel.mp4"
+  },
+  "intro": {
+    "line1": "Innovatieve machinebouw voor het proces van morgen: door slimmere en efficiëntere machines in jouw fabriek kan er ongeremd geproduceerd gaan worden.",
+    "line2": "Wij bouwen machines en robotoplossingen op maat, volledig afgestemd op jouw productie.",
+    "quote": "\"Parts die wél doen wat ze beloven\"",
+    "button1Label": "Plan een vrijblijvend adviesgesprek",
+    "button1Link": "/contact",
+    "button2Label": "Bezoek onze machinedokters",
+    "button2Link": "https://www.demachinedokters.nl"
+  },
+  "verschil": {
+    "title": "Hoe wij het verschil maken!",
+    "items": [
+      {
+        "title": "Technisch maatwerk",
+        "text": "Reboow levert niet alleen standaardmachines, maar ook producten die precies passen bij jouw productieproces. Van compleet nieuwe speciaalmachines tot retrofit van verouderde installaties: wij combineren bewezen mechanica met slimme software en low-cost automatiseringsoplossingen.\n\nElk project is maatwerk, gericht op continuïteit, precisie en maximale efficiëntie."
+      },
+      {
+        "title": "Out of the box",
+        "text": "Onze ervaring strekt zich uit over diverse industrieën, waardoor we oplossingen bedenken die andere machinebouwers vaak over het hoofd zien. Door technieken en ideeën uit verschillende branches te combineren, creëren we machines en systemen die sneller, slimmer en beter presteren.\n\nResultaat: een innovatieve oplossing die werkt waar standaardoplossingen falen."
+      },
+      {
+        "title": "Snel, praktisch en zonder gedoe",
+        "text": "Reboow staat voor korte lijnen en snelle actie. Geen lange wachttijden of onnodige bureaucratie, wél directe ondersteuning, duidelijke communicatie en slimme adviezen.\n\nWe geloven in lokaal produceren en werken dus vanuit Nederland, waardoor we kortere levertijden hebben dan concurrenten."
+      }
+    ]
+  },
+  "klachten": {
+    "title": "Klachten die De Machinedokters genezen",
+    "intro": "Elke fabriek heeft wel eens last van klachten: machines die minder presteren, productielijnen die stilvallen of processen die stroef lopen. De Machinedokters stellen de juiste diagnose en zorgen voor een blijvende oplossing. Typische klachten waarbij je ons inschakelt zijn bijvoorbeeld:",
+    "quote": "\"Koppige machine? Perfect. Dat is onze specialiteit.\"",
+    "items": [
+      {
+        "title": "Inefficient productieproces",
+        "text": "Je machines draaien onder capaciteit en de output per uur is lager dan gewenst. Neem bijvoorbeeld onze klant Coca Cola, waarbij we het bottelproces hebben geoptimaliseerd. Dankzij onze oplossingen draait de nieuwe lijn 30% sneller!",
+        "image": "/images/fotos/bottellijn.jpg",
+        "imageAlt": "Geautomatiseerde productielijn met kleine lege flessen op lopende band in fabriek."
+      },
+      {
+        "title": "Hoge stilstand- en onderhoudskosten",
+        "text": "Onverwachte storingen en hoge onderhoudskosten drukken direct op de winst. Elke minuut stilstand betekent productieverlies. Bij Coca Cola hebben wij gezorgd voor 40% minder storingen.\n\nDoor deze twee klachten te genezen heeft Coca Cola in één jaar meer dan €50 miljoen extra omzet gedraaid.",
+        "image": "/images/fotos/transportsysteem.jpg",
+        "imageAlt": "Industrieel transportsysteem met rollenbanen, gele leuningen en controlepanelen in fabriekshal."
+      },
+      {
+        "title": "Hoge afhankelijkheid aan personeel",
+        "text": "Er is steeds meer tekort aan personeel wat de bottleneck kan zijn van een bedrijf. De Machinedokters zorgen voor slimmere en geautomatiseerde processen. Zo hebben wij een voedingsbedrijf onder andere geholpen met automatiseren van handelingen waardoor zij een 20% snellere verpakkingssnelheid kregen.",
+        "image": "/images/fotos/rco-robots.jpg",
+        "imageAlt": "Monteur op de grond bij industriële oranje robots."
+      }
+    ],
+    "button1Label": "Meer Business Cases",
+    "button1Link": "/cases",
+    "button2Label": "Contact",
+    "button2Link": "/contact"
+  },
+  "overOns": {
+    "title": "Ons verhaal",
+    "text": "Het verhaal van Reboow Group begint niet in een kantoor, maar tussen twee motoren in het fietsenhok van het HBO. Daar ontmoetten de oprichters van Reboow Group, Mike en Freek, elkaar voor het eerst. Het begon als een klik tussen twee mechatronica-studenten die in het werkgebied tegen dezelfde frustraties aanliepen: ouderwetse, domme techniek en machines die veel vaker stilstonden dan nodig was.\n\nReboow Group werd geboren uit de mix van frustratie, enthousiasme en vakmanschap. Freek sterk in elektra en besturing en Mike in mechanica; de perfecte combinatie. Onze aanpak bewees zich al snel tijdens een van onze eerste grote projecten: een assemblagelijn voor aluminium huishoudtrappen. Er stonden tien identieke machines die verre van optimaal draaiden. Wij hebben de machines compleet gestandaardiseerd, haalden alle overbodige bewegingen eruit en herschreven de besturing. Het resultaat: de machines werden eenvoudiger, en daardoor juist veel betrouwbaarder. Storingen en stilstand verdwenen als sneeuw voor de zon. De klant zag het resultaat van de eerste machine en liet ons zonder blikken of blozen direct de overige negen aanpakken.\n\nWat begon met twee vrienden die vonden dat de maakindustrie slimmer kon, groeide uit tot een serieuze kracht in machinebouw, robotisering en optimalisatie. Waar Reboow Group zich vandaag richt op machinebouw en robotisering, pakken **De Machinedokters**, ontstaan uit Reboow Group, het optimaliseren en onderhouden van bestaande machines op.",
+    "linkLabel": "Lees meer...",
+    "link": "/over-ons",
+    "quote": "\"Praktisch ingesteld, hoog allergisch voor gelul.\"",
+    "image": "/images/fotos/team-banner.jpg",
+    "imageAlt": "Het team houdt een banner vast met REBOOW GROUP en DE MACHINEDOKTERS erop."
+  }
+}
