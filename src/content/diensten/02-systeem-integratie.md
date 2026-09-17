@@ -6,6 +6,13 @@ icon: "code"
 image: "/images/fotos/software-dashboard.jpg"
 imageAlt: "Dashboard met productiedata naast een medewerker op de werkvloer."
 order: 2
+slug: "systeem-integratie"
+seoTitle: "Systeemintegratie van machines en besturing | Reboow Group"
+seoDescription: "Losse machines verbinden tot één intelligent netwerk: PLC, data en dashboards. Productieprocessen overzichtelijker, sneller en foutloos."
+relatedCases:
+  - "case-automotive"
+  - "case-mens-en-industrie"
+  - "case-coca-cola"
 ---
 
 Veel fabrieken werken met machines van verschillende leeftijden en merken, en die praten niet altijd met elkaar. Reboow Group zorgen dat alles weer één geheel wordt. We integreren moderne software, sensoren en besturingen met bestaande installaties, zodat jouw fabriek slimmer en overzichtelijker werkt.

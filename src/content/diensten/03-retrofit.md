@@ -6,6 +6,13 @@ icon: "wrench"
 image: "/images/fotos/onderhoud-warning.jpg"
 imageAlt: "Waarschuwingsbord over onderhoud aan een machine."
 order: 3
+slug: "retrofit"
+seoTitle: "Retrofit: verouderde machines moderniseren | Reboow Group"
+seoDescription: "Nieuwe besturing, aandrijvingen en automatisering voor bestaande machines. Langer mee, betrouwbaarder en klaar voor de toekomst, zonder nieuwbouw."
+relatedCases:
+  - "case-mens-en-industrie"
+  - "case-automotive"
+  - "case-verpakkingsindustrie"
 ---
 
 Voorkomen is beter dan genezen, maar als er iets misgaat lossen we het duurzaam op. Reboow Group geloven niet in tijdelijke lapmiddelen: we voeren diepgaande storingsanalyses uit om de echte oorzaak te vinden. Door onze kennis van zowel mechanica als besturingstechniek kunnen we storingen niet alleen verhelpen, maar structureel voorkomen.

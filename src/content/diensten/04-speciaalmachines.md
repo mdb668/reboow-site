@@ -6,6 +6,13 @@ icon: "gear-up"
 image: "/images/fotos/robots-productielijn.jpg"
 imageAlt: "Robots aan een productielijn."
 order: 4
+slug: "speciaalmachines"
+seoTitle: "Speciaalmachines op maat | Reboow Group machinebouw"
+seoDescription: "Speciaalmachines vanaf een blanco vel voor producten die standaardmachines niet aankunnen. Ontwerp, bouw en inbedrijfstelling in eigen beheer."
+relatedCases:
+  - "case-aluminium"
+  - "case-verpakkingsindustrie"
+  - "case-altrex"
 ---
 
 Elke fabriek heeft zijn eigen ritme, maar soms hapert dat ritme of gaat het te traag. Reboow Group analyseren waar het proces stokt en voeren technische aanpassingen uit die de hele productielijn beter laten presteren. We kijken naar doorlooptijden, bottlenecks en onnodige handelingen en zorgen dat mens en machine beter samenwerken.

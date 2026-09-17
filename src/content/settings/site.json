@@ -2,7 +2,7 @@
   "siteName": "Reboow Group",
   "tagline": "Meesters in retrofit, experts in nieuwbouw.",
   "seoTitle": "ReboowGroup | Speciaalmachines & Procesoptimalisatie",
-  "seoDescription": "ReboowGroup realiseert innovatieve machinebouw voor industriële productie. Wij bouwen speciaalmachines en robotoplossingen op maat en helpen bedrijven met procesoptimalisatie voor efficiënter produceren.",
+  "seoDescription": "Reboow Group bouwt speciaalmachines en robotoplossingen op maat en moderniseert bestaande machines (retrofit) voor de maakindustrie. Vanuit Alphen, Noord-Brabant.",
   "logo": "/images/logo-reboow-group.png",
   "logoIcon": "/images/logo-icoon.png",
   "phone": "+31 850 470 907",
@@ -168,5 +168,6 @@
       "text": "Je krijgt continu inzicht in de resultaten, met bijsturing waar nodig."
     }
   ],
-  "logoDark": "/images/logo-reboow-group-donker.png"
+  "logoDark": "/images/logo-reboow-group-donker.png",
+  "serviceArea": "Werkgebied: heel Nederland, met onze werkplaats in Alphen (Noord-Brabant), tussen Tilburg en Breda."
 }

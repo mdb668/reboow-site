@@ -6,6 +6,13 @@ icon: "robot"
 image: "/images/fotos/rco-robots.jpg"
 imageAlt: "Industriële robots in een productiehal."
 order: 1
+slug: "robotisering-automatisering"
+seoTitle: "Robotisering & automatisering productielijnen | Reboow Group"
+seoDescription: "Robots en automatisering die menselijk handelen overnemen: sneller, foutloos en flexibel. Machinebouw op maat vanuit Noord-Brabant."
+relatedCases:
+  - "case-aluminium"
+  - "case-altrex"
+  - "case-coca-cola"
 ---
 
 Een slimme aanpassing heeft pas echt waarde als iedereen ermee kan werken. Daarom zorgen Reboow Group dat jouw team de nieuwe systemen begrijpt, beheerst en benut. We bieden ondersteuning tijdens en na de implementatie, zodat de overgang soepel verloopt en verbeteringen duurzaam worden verankerd. Zo groeit niet alleen je productiecapaciteit, maar ook de kennis op de werkvloer.
