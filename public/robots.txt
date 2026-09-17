@@ -4,3 +4,4 @@ Disallow: /admin/
 Disallow: /bedankt
 
 Sitemap: https://www.reboow.nl/sitemap-index.xml
+Sitemap: https://www.reboow.nl/sitemap.xml
