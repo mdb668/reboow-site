@@ -21,11 +21,11 @@
 
 ## Pagina's
 - Home: https://www.reboow.nl/
-- Diensten: https://www.reboow.nl/diensten
-- Service & onderhoud: https://www.reboow.nl/service-onderhoud
-- Cases: https://www.reboow.nl/cases
-- Over ons: https://www.reboow.nl/over-ons
-- Contact: https://www.reboow.nl/contact
+- Diensten: https://www.reboow.nl/diensten/
+- Service & onderhoud: https://www.reboow.nl/service-onderhoud/
+- Cases: https://www.reboow.nl/cases/
+- Over ons: https://www.reboow.nl/over-ons/
+- Contact: https://www.reboow.nl/contact/
 
 ## Contact
 - Telefoon: +31 850 470 907
