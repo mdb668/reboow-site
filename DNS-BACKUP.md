@@ -39,3 +39,9 @@ Aanbeveling voor later: DKIM (selector1/selector2) en DMARC voor Microsoft 365 t
   `v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjU1573UQ7s0TcuIQUIM14+BK3V2k9Xd2sYH6G/KsiYItZqSuXCpMgnSNbCR9FuvlLnjO1erpo7paUrUUAhh0HNK4ebOmV7nq0SVtmLXc03aEKGE42Sc3nxTsNmgJvYuNI8mloLkeRhPa18bskXJ36UCl1VbFpjcnIueQ45w1MewIDAQAB`
 - Nieuw toegevoegd: TXT `_dmarc` → `v=DMARC1; p=none; rua=mailto:info@reboow.nl; fo=1`
 - Gecontroleerd en niet aanwezig in de Wix-zone: selector1/selector2._domainkey (Microsoft DKIM), autodiscover, linfosys-DKIM.
+
+## Aanvulling 21-09-2026: DKIM Microsoft 365 (nieuw)
+
+- CNAME `selector1._domainkey` → `selector1-reboow-nl._domainkey.Reboow.onmicrosoft.com`
+- CNAME `selector2._domainkey` → `selector2-reboow-nl._domainkey.Reboow.onmicrosoft.com`
+- Daarna in security.microsoft.com → DKIM → reboow.nl de handtekeningen inschakelen.
