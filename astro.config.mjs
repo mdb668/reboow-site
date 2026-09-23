@@ -11,7 +11,7 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         !page.includes('/bedankt') && !page.includes('/admin') && !page.includes('/404') &&
-        !/\/(home)\/?$/.test(page),
+        !/\/(home|behandelplan)\/?$/.test(page),
     }),
   ],
 });
