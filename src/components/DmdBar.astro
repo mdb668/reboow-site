@@ -1,0 +1,17 @@
+---
+/** Balk onderaan elke pagina: Reboow gaat verder als De Machinedokters, met link naar de overeenkomende pagina. */
+import { dmdUrl } from '../lib/dmd';
+const href = dmdUrl(Astro.url.pathname);
+---
+<aside class="dmd-bar" aria-label="Reboow gaat verder als De Machinedokters">
+  <p><strong>Reboow gaat verder als De Machinedokters.</strong> <span>Zelfde team, zelfde vakmanschap, inclusief machinebouw.</span></p>
+  <a class="btn btn-primary" href={href}><span class="long">Bekijk deze pagina op demachinedokters.nl</span><span class="short">Naar demachinedokters.nl</span> &rarr;</a>
+</aside>
+<style>
+  .dmd-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; display: flex; align-items: center; justify-content: center; gap: 12px 24px; flex-wrap: wrap; padding: 12px 16px; background: var(--blue); color: #fff; box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15); text-align: center; }
+  .dmd-bar p { margin: 0; }
+  .dmd-bar .btn { white-space: nowrap; }
+  :global(body) { padding-bottom: 76px; }
+  .dmd-bar .short { display: none; }
+  @media (max-width: 640px) { .dmd-bar p span, .dmd-bar .long { display: none; } .dmd-bar .short { display: inline; } .dmd-bar p { font-size: 0.9rem; } .dmd-bar { gap: 8px; } :global(body) { padding-bottom: 110px; } }
+</style>
