@@ -10,12 +10,12 @@ Zustersite van `../demachinedokters-site` (www.demachinedokters.nl), zelfde stac
 - Astro 7, content in `src/content/*` (Zod-schema's in `src/content.config.ts`)
 - Sveltia CMS op `/admin/`, zelf gehost (`public/admin/sveltia-cms.js`, bijwerken met `npm run cms:update`)
 - Deploy: GitHub Actions → GitHub Pages (`.github/workflows/deploy.yml`), repo `mdb668/reboow-site` (publiek — GitHub Pages op privé-repo vereist Pro)
-- Formulieren: FormSubmit.co (contact/sollicitatie)
+- Formulieren: FormSubmit.co alleen nog voor het sollicitatieformulier. Het contactformulier is weg; telefoon en e-mail lopen via De Machinedokters.
 - `scripts/postbuild.mjs` maakt na elke build alle interne URL's consistent **mét afsluitende slash** (canonical, links, JSON-LD, llms.txt) — GitHub Pages serveert mappen zo, dit voorkomt onnodige 301's. Niet verwijderen.
 
 ## Belangrijke eigenaardigheden
-- Componenten (Header, Footer, ContactForm, Mail, enz.) zijn **niet gedeeld** met demachinedokters-site — een wijziging moet in beide repo's apart doorgevoerd worden.
-- E-mailadres staat *niet* als platte tekst in de HTML (`src/components/Mail.astro` bouwt het in de browser op) — tegen recruitment-harvesters. Optioneel CMS-veld `formEndpoint` (Instellingen) voor de hashed FormSubmit-code, verbergt het adres ook uit formulier-URL's.
+- Componenten (Header, Footer, Mail, enz.) zijn **niet gedeeld** met demachinedokters-site — een wijziging moet in beide repo's apart doorgevoerd worden.
+- Telefoon en e-mail staan niet op de site. Contact loopt via de link naar De Machinedokters. Het sollicitatieformulier post nog naar FormSubmit; optioneel CMS-veld `formEndpoint` (Instellingen) vervangt het adres in die formulier-URL door een hashed code.
 - Geen blog, geen downloadpagina, geen NEN-pagina (had de oude reboow.nl ook niet).
 - Oude Wix-URL's blijven werken via doorverwijzingen (`src/components/Redirect.astro`): `/home`, `/behandelplan`, `/blank` (→ `/contactgegevens`).
 - Adres: Looiersweg **3B** (niet 3C3, dat stond er even fout in), 5131 BE Alphen.

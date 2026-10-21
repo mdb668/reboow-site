@@ -1,9 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import CtaBand from '../components/CtaBand.astro';
-import Mail from '../components/Mail.astro';
 import { getEntry } from 'astro:content';
+import { dmdUrl } from '../lib/dmd';
 const site = (await getEntry('settings', 'site'))!.data;
+const dmdContact = dmdUrl('/contact/');
 ---
 <Base title={`Contactgegevens | ${site.siteName}`} description={`Contactgegevens van ${site.siteName}, een handelsnaam van ${site.legalName}. KVK ${site.kvk}.`}>
   <section class="page-hero">
@@ -17,7 +18,7 @@ const site = (await getEntry('settings', 'site'))!.data;
       <p><strong>{site.legalName}</strong><br />{site.addressLine1}<br />{site.addressLine2}<br />Nederland</p>
       <p><strong>KVK-nummer:</strong> {site.kvk}</p>
       <p>Voor vragen over onze service en diensten:</p>
-      <p>E-mail: <Mail /><br />Tel: <a href={site.phoneLink}>{site.phone}</a></p>
+      <p>Voor telefoon en e-mail: <a href={dmdContact}>Contact via De Machinedokters</a>.</p>
     </div>
   </section>
   <CtaBand label={site.ctaLabel} href={site.ctaLink} />
