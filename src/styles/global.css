@@ -132,9 +132,6 @@ strong { font-weight: 600; }
 .form .row { display: grid; gap: 18px; grid-template-columns: 1fr 1fr; }
 @media (max-width: 560px) { .form .row { grid-template-columns: 1fr; } }
 .form .hp { position: absolute; left: -9999px; opacity: 0; height: 0; }
-.form-msg { padding: 16px 18px; border-radius: 8px; background: var(--green-soft); border: 1px solid var(--green); display: none; }
-.form-msg.error { background: #fdeeee; border-color: #df3131; }
-.form-msg.show { display: block; }
 
 /* Page hero for inner pages */
 .page-hero {

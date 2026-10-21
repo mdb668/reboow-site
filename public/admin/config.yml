@@ -44,9 +44,9 @@ collections:
           - { name: logoDark, label: "Logo (donkere letters, voor lichte achtergrond)", widget: image, required: false }
           - { name: logoIcon, label: "Logo-icoon", widget: image, required: false }
           - { name: phone, label: "Telefoonnummer (weergave)", widget: string }
-          - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+31850470907)", widget: string }
+          - { name: phoneLink, label: "Telefoonnummer (link, bijvoorbeeld tel:+31...)", widget: string }
           - { name: email, label: "E-mailadres", widget: string }
-          - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, hint: "Contact-, sollicitatie- en downloadformulieren worden hierheen gestuurd." }
+          - { name: formEmail, label: "E-mailadres waar het sollicitatieformulier naartoe gaat", widget: string, hint: "Alleen het sollicitatieformulier wordt hierheen gestuurd." }
           - { name: formEndpoint, label: "FormSubmit-code (optioneel)", widget: string, required: false, hint: "De hashed code uit je FormSubmit-activatiemail. Ingevuld? Dan staat je e-mailadres nergens meer in de broncode." }
           - { name: addressLine1, label: "Adres regel 1", widget: string }
           - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
@@ -244,25 +244,11 @@ collections:
           - { name: title, label: "Titel", widget: string }
           - { name: intro, label: "Intro", widget: text }
           - { name: subtitle, label: "Ondertitel", widget: string, required: false }
-          - name: form
-            label: "Formulier"
-            widget: object
-            fields:
-              - { name: nameLabel, label: "Label naam", widget: string }
-              - { name: emailLabel, label: "Label e-mail", widget: string }
-              - { name: phoneLabel, label: "Label telefoon", widget: string }
-              - { name: messageLabel, label: "Label bericht", widget: string }
-              - { name: submitLabel, label: "Knop", widget: string }
-              - { name: successTitle, label: "Succes titel", widget: string }
-              - { name: successText, label: "Succes tekst", widget: text }
-              - { name: errorText, label: "Fout tekst", widget: text }
           - name: labels
             label: "Labels contactgegevens"
             widget: object
             fields:
               - { name: address, label: "Adres", widget: string }
-              - { name: phone, label: "Telefoon", widget: string }
-              - { name: email, label: "E-mail", widget: string }
               - { name: hours, label: "Kantoortijden", widget: string }
           - { name: mapEmbed, label: "Google Maps embed-URL", widget: string, required: false, hint: "Laat leeg om geen kaart te tonen." }
 
