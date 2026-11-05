@@ -9,7 +9,7 @@ Alles is van jou: de code, de teksten, de foto's. Geen abonnement meer nodig.
 | Beheer (CMS) | **Sveltia CMS** op `/admin/` – teksten, foto's, cases, blog, team, FAQ, vacatures aanpassen in je browser |
 | Opslag | GitHub-repository `mdb668/reboow-site` (elke wijziging is een commit, dus alles heeft een historie) |
 | Hosting | **GitHub Pages** (gratis, wereldwijd CDN, automatisch HTTPS) |
-| Formulieren | **FormSubmit.co** stuurt alleen het sollicitatieformulier naar `info@reboow.nl`. Het contactformulier is verwijderd. |
+| Formulieren | **Web3Forms** stuurt alleen het sollicitatieformulier naar het adres van de access key (Instellingen → Web3Forms access key). Het contactformulier is verwijderd. |
 | Domein | Blijft bij one.com; alleen de DNS-records wijzen naar GitHub Pages |
 
 ---
@@ -41,7 +41,7 @@ Daarna in GitHub: **Settings → Pages → Custom domain** = `www.reboow.nl` →
 Het bestand `public/CNAME` bevat al `www.reboow.nl`, zodat GitHub het domein onthoudt bij elke nieuwe publicatie.
 
 ### Stap 3 – Formulieren activeren
-Bij de **eerste** inzending van een formulier stuurt FormSubmit een activatiemail naar `info@reboow.nl` met de knop **Activate form**. Klik erop; daarna komen alle berichten gewoon binnen.
+Het formulier werkt met een access key van web3forms.com. Er is geen activatiemail nodig. De berichten gaan naar het adres waarvoor de key is aangevraagd.
 Test na livegang dus één keer het sollicitatieformulier.
 
 ### Stap 4 – Inloggen op het CMS
@@ -98,7 +98,7 @@ Lokaal het CMS gebruiken zonder token: start `npm run dev`, open http://localhos
 ## 4. Wat er bewust anders is dan op Wix
 - **Geen cookiebanner**: de site plaatst zelf geen tracking-cookies. Voeg je later Google Analytics of een pixel toe, plaats dan weer een cookiemelding.
 - **Hero-video** is verkleind naar 480p (6 MB) voor snelheid; de originele 720p-versie staat in de map van de studie-bestanden. Wil je hem vervangen: `public/video/hero.mp4`.
-- **Formulieren** via FormSubmit in plaats van Wix Forms. Bijlagen (CV) werken via het sollicitatieformulier. Het contactformulier is verwijderd; telefoon en e-mail lopen via De Machinedokters.
+- **Formulieren** via Web3Forms in plaats van Wix Forms (eerder FormSubmit). Geen bijlagen (CV) op het gratis plan. Het contactformulier is verwijderd; telefoon en e-mail lopen via De Machinedokters.
 - De site heeft geen blog en geen downloadpagina (die had reboow.nl ook niet).
 - **Case WVS** staat op "niet gepubliceerd" omdat er op de oude site nog geen inhoud voor was.
 - Alle oude URL's (`/case-coca-cola`, `/post/...`, `/diensten/nen-3140-1010`, enz.) zijn behouden voor SEO. Sitemap: `/sitemap-index.xml`, RSS: `/rss.xml`.

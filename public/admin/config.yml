@@ -47,7 +47,7 @@ collections:
           - { name: phoneLink, label: "Telefoonnummer (link, bijvoorbeeld tel:+31...)", widget: string }
           - { name: email, label: "E-mailadres", widget: string }
           - { name: formEmail, label: "E-mailadres waar het sollicitatieformulier naartoe gaat", widget: string, hint: "Alleen het sollicitatieformulier wordt hierheen gestuurd." }
-          - { name: formEndpoint, label: "FormSubmit-code (optioneel)", widget: string, required: false, hint: "De hashed code uit je FormSubmit-activatiemail. Ingevuld? Dan staat je e-mailadres nergens meer in de broncode." }
+          - { name: formKey, label: "Web3Forms access key", widget: string, required: false, hint: "De key van web3forms.com. Het formulier gaat naar het adres waarvoor de key is aangevraagd." }
           - { name: addressLine1, label: "Adres regel 1", widget: string }
           - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
           - { name: openingHours, label: "Kantoortijden", widget: string }

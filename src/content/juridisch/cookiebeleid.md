@@ -24,7 +24,7 @@ Onze website plaatst zelf **geen cookies** en gebruikt geen analyse- of marketin
 Op twee plekken gebruiken we diensten van derden. Daarbij kan die partij technische gegevens zoals je IP-adres verwerken:
 
 - **Kaart op de contactpagina**: de kaart van Google Maps wordt pas geladen nadat je zelf op "Kaart tonen" klikt. Pas op dat moment kan Google cookies plaatsen volgens het privacybeleid van Google. Klik je niet, dan gebeurt er niets.
-- **Formulieren**: het contact- en sollicitatieformulier worden verzonden via de dienst FormSubmit. Die verwerkt de ingevulde gegevens uitsluitend om ze aan ons door te sturen en plaatst geen cookies op onze website.
+- **Formulieren**: het sollicitatieformulier wordt verzonden via de dienst Web3Forms. Die verwerkt de ingevulde gegevens uitsluitend om ze aan ons door te sturen en plaatst geen cookies op onze website.
 
 ## Veranderingen in de toekomst
 
